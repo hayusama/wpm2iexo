@@ -1,0 +1,43 @@
+/*
+Theme Name: Pixel Online Création
+Description: Thème enfant de divi
+Author: Anthony PARIS
+Author URI: https://www.pixel-online.fr
+Template: Divi
+Version: 1.0.0
+*/
+
+/* ANIMATION */
+@keyframes pulse {
+	0% {
+		transform: scale(0.75);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+		
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	100% {
+		transform: scale(0.75);
+		box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+	}
+}
+
+.pulse {
+	animation: pulse 2s infinite;
+}
+
+section#page-title{
+    background: #eee;
+}
+
+p#breadcrumbs{
+    padding:15px;
+}
+
+div#menu-header{
+    display: flex!important;
+}
